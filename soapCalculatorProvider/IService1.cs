@@ -20,6 +20,9 @@ namespace soapCalculatorProvider
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
+
+        [OperationContract]
+        int Add(int a, int b);
     }
 
 
