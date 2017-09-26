@@ -23,6 +23,9 @@ namespace soapCalculatorProvider
 
         [OperationContract]
         int Add(int a, int b);
+
+        [OperationContract]
+        int Subtract(int a, int b);
     }
 
 
